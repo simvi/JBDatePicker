@@ -152,7 +152,7 @@ final class JBDatePickerManager {
                 }
                 
                 if let jbday = weekInformationToReturn[0], let myDate = jbday.date {
-                    let calendar = Calendar.current
+                    let calendar = calendar
                     var comps = calendar.dateComponents([.weekOfYear], from: myDate)
                     if let w = comps.weekOfYear {
                         weeks.append(w)
@@ -188,7 +188,7 @@ final class JBDatePickerManager {
                 }
                 
                 if let jbday = weekInformationToReturn[0], let myDate = jbday.date {
-                    let calendar = Calendar.current
+                    let calendar = calendar
                     var comps = calendar.dateComponents([.weekOfYear], from: myDate)
                     if let w = comps.weekOfYear {
                         weeks.append(w)
@@ -222,7 +222,7 @@ final class JBDatePickerManager {
                 }
                 
                 if let jbday = weekInformationToReturn[0], let myDate = jbday.date {
-                    let calendar = Calendar.current
+                    let calendar = calendar
                     var comps = calendar.dateComponents([.weekOfYear], from: myDate)
                     if let w = comps.weekOfYear {
                         weeks.append(w)
